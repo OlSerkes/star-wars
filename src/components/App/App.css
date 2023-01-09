@@ -1,0 +1,99 @@
+#root {    
+    background-image: url(../../images/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFEE58;
+    /* max-width: 1440px; */
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFEE58;
+}
+a:hover {
+    color: #d1bc02;    
+}
+a:active {
+    color: #926b00;    
+}
+img {
+    border-radius: 5px;
+    box-shadow: 7px 7px 29px 5px rgba(41, 41, 41, 1);
+    width: 400px;
+    height: 400px;
+}
+h3 {
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 500;
+}
+ul {
+    padding: 0;
+    text-align: left;
+}
+
+.font-face-gm {
+    font-family: "star-jedi";
+    font-size: 80px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;        
+}
+.menu-list{
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+.button {
+    border-radius: 5px;
+    background-color: rgb(67, 66, 66);
+    color: #FFEE58;
+    transition-duration: 0.4s;
+    width: 50%;
+    height: 3rem;
+    margin: 1rem;
+    border: 2px solid #d1bc02;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+}
+.button:hover{
+    background-color: #FFEE58;
+    color: rgb(67, 66, 66);
+}
+.cart-item {
+    align-items: flex-start;
+    background-color: rgb(67, 66, 66);
+    border: 2px solid #FFEE58;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+    margin: 2% auto 5% auto;    
+    padding: 2rem;
+    transition: .5s;
+}
+.cart-item:hover {
+    transform: scale(1.1);
+}
+.cart-info {
+    display: flex;
+    flex-direction: column;    
+}
+.person-img {
+    width: 300px;
+    height: 400px;
+}

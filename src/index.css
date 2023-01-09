@@ -1,0 +1,6 @@
+@font-face {
+    font-family: "star-jedi";
+    src: local("star-jedi"),
+        url("./fonts/Star_jedi/starjedi/Starjedi.ttf") format("truetype");
+    
+}
